@@ -26,8 +26,12 @@ SECRET_KEY = 'django-insecure-iprj1!xz!dht#(@(7av()!ps*h+$y%gkc_y26ts%2&+d9h54=8
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    
+    "127.0.0.1",
+    "localhost",
+    "swayamvish.pythonanywhere.com",
+    "edukart-django.onrender.com",  # 👈 add this line
 ]
+
 
 
 
