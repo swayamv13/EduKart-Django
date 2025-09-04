@@ -9,6 +9,10 @@ https://docs.djangoproject.com/en/5.2/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.2/ref/settings/
 """
+CSRF_TRUSTED_ORIGINS = [
+    "https://edukart-django-1.onrender.com",
+    "https://edukart-django.onrender.com",
+]
 
 from pathlib import Path
 
